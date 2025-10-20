@@ -4,6 +4,11 @@ These little light tutorials are ment to show important tricks with programming 
 
 ## Things to do First
 
+For all tricks we see here we need an editor. Install vscode from:
+https://code.visualstudio.com/
+
+It works on Linux, Windows and Mac.
+
 We need the Codetour extension. You can install it by opening the extension Menue that resembles 4 boxes with one box rotated.
 There search for ```codetour``` and install it.
 
