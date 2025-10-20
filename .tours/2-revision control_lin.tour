@@ -1,11 +1,11 @@
 {
   "$schema": "https://aka.ms/codetour-schema",
   "title": "2 - Revision Control",
-  "when":"isLinux",
+  "when": "isLinux",
   "steps": [
     {
       "file": "02-revision_control.md",
-      "description": "We will use appt to install it from the integrated command line of visual studio code:\r\n\r\n>> sudo apt install git-all\r\n",
+      "description": "We will use appt to install it from the integrated command line of visual studio code:\r\nFor debian based systmes (Debian, Ubuntu, Mint,...)\r\n>> sudo apt install git-all\r\n\r\nFor RedHat based systems (RockyLinux, AlmaLinux, OracleLinux):\r\n>>sudo dnf install git-all",
       "line": 7
     },
     {

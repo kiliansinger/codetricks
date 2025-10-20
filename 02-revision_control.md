@@ -9,9 +9,4 @@ Lets install it.
 now all you have to do to update is type ``git pull`` from the command line to get updates.
 For the lazy ones I have it in the hint...
 
-And now you can see more chapters and also this text was updated.
-If you want to learn more about git you can start here: https://rogerdudler.github.io/git-guide/
-
-Have also a look I updated the [01-welcome](./01-welcome.md) with hints where to learn more about Markdown.
-
 
