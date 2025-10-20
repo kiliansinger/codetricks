@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "1 - Welcome",
+  "steps": [
+    {
+      "file": "01-welcome.md",
+      "description": "We will install a Markdown extension such that the current file looks much better.\r\n\r\n[Install Markdown extension](command:workbench.extensions.installExtension?[\"zaaack.markdown-editor\"])",
+      "line": 17
+    }
+  ]
+}

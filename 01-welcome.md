@@ -1,0 +1,18 @@
+# Codetricks
+
+These little light tutorials are ment to show important tricks with programming and tools to be efficient in physics.
+
+## Things to do First
+
+We need the Codetour extension. You can install it by opening the extension Menue that resembles 4 boxes with one box rotated.
+There search for ```codetour``` and install it.
+
+## Then
+
+Now we can use The Codetour feature to automatically install and give hints and insert tutorial code.
+
+This file is actually Markdown. You might know it from the web.
+The first thing we do is we use the codetour to install a good markdown extension that allows us to use life editing of math formulas ($\gamma=\frac{1}{\sqrt{1-v^2/c^2}}$) and linking files and pictures. This is very important if you work in physics labs in research.
+
+Just click on this link here.
+Now you can just press CTRL+SHIFT+ALT+M (on Mac: OPTION corresponds to ALT and COMMAND is the CTRL key) to see this document in a much nicer way.
