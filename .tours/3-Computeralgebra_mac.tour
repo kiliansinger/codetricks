@@ -1,0 +1,12 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "3 - Computeralgebra",
+  "when": "isMac",
+  "steps": [
+    {
+      "file": "03-Computer Algebra with Maxima.md",
+      "description": ">> brew install wxmaxima\r\n",
+      "line": 15
+    }
+  ]
+}
