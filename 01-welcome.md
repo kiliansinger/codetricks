@@ -21,3 +21,7 @@ The first thing we do is we use the codetour to install a good markdown extensio
 
 Just click on this link here.
 Now you can just press CTRL+SHIFT+ALT+M (on Mac: OPTION corresponds to ALT and COMMAND is the CTRL key) to see this document in a much nicer way.
+
+## Markdown cheat sheets
+
+https://github.com/lifeparticle/Markdown-Cheatsheet
