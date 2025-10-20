@@ -1,0 +1,17 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "2 - Revision Control",
+  "when": "isMac",
+  "steps": [
+    {
+      "file": "02-revision_control.md",
+      "description": "We will use Homebrew instead of mac's way of downloading git from xcode when you type ``git --version``.\r\n\r\nInstall Homebrew the missing packet manager for osx:\r\n>> /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\r\n\r\nAnd then git:\r\n>> brew install git\r\n\r\n",
+      "line": 7
+    },
+    {
+      "file": "02-revision_control.md",
+      "description": ">> git pull",
+      "line": 10
+    }
+  ]
+}
