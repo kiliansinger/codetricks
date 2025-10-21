@@ -17,7 +17,7 @@ taylor(g(x),x,0,1);
 
 
 /* [wxMaxima: input   start ] */
-wxplot2d([1/sqrt(1-x),1+0.5*x],[x,0,0.9]);
+wxplot2d([1/sqrt(1-x),1+0.5*x],[x,0,0.9],[legend,"1/sqrt(1-x)","1+0.5x"],[xlabel,"x-val"],[ylabel,"y-val"]);
 /* [wxMaxima: input   end   ] */
 
 
