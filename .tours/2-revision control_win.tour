@@ -6,12 +6,12 @@
     {
       "file": "02-revision_control.md",
       "description": "We will use winget to install it from the integrated command line of visual studio code:\r\n\r\n>> winget install -e --id Git.Git\r\n",
-      "line": 7
+      "line": 8
     },
     {
       "file": "02-revision_control.md",
       "description": ">> git pull",
-      "line": 10
+      "line": 11
     }
   ]
 }

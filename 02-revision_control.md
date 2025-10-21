@@ -14,4 +14,15 @@ If you want to learn more about git you can start here: https://rogerdudler.gith
 
 Have also a look I updated the [01-welcome](./01-welcome.md) with hints where to learn more about Markdown.
 
+At some point while trying to update with ``git pull`` you might get an error message stating that you will overwrite changes that you have performed on your editor.
+You can store your changes by using the command ``git stash``. This will save your current changes and allow you to perform a ``git pull`` without losing any of your work.
+If you later want to retrieve your changes then type ``git stash apply`` this will update the new documents including your changes.
+
+If you made changes that you would like to all undo then do ``git reset --HARD origin/main``.
+
+So you see ``git`` is a very usefull tool to keep track of changes and to undo changes.
+
+In [04-My Webpage](./04-my_webpage) you will make an account on github and then make a minimal webpage. 
+
+
 

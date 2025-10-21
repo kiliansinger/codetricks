@@ -6,12 +6,12 @@
     {
       "file": "02-revision_control.md",
       "description": "We will use appt to install it from the integrated command line of visual studio code:\r\nFor debian based systmes (Debian, Ubuntu, Mint,...)\r\n>> sudo apt install git-all\r\n\r\nFor RedHat based systems (RockyLinux, AlmaLinux, OracleLinux):\r\n>>sudo dnf install git-all",
-      "line": 7
+      "line": 8
     },
     {
       "file": "02-revision_control.md",
       "description": ">> git pull",
-      "line": 10
+      "line": 11
     }
   ]
 }

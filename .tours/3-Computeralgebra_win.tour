@@ -6,7 +6,7 @@
     {
       "file": "03-Computer Algebra with Maxima.md",
       "description": ">> winget install -e --id MaximaTeam.Maxima\r\n",
-      "line": 15
+      "line": 16
     }
   ]
 }

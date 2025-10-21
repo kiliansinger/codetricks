@@ -6,7 +6,7 @@
     {
       "file": "03-Computer Algebra with Maxima.md",
       "description": "Debian:\r\n>> apt-get install wxmaxima \r\n\r\nRedhat:\r\n>> sudo dnf install wxmaxima\r\n",
-      "line": 15
+      "line": 16
     }
   ]
 }
