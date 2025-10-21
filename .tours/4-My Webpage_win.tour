@@ -1,0 +1,13 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "4 - My Webpage",
+  "when": "isWindows",
+  "steps": [
+    {
+      "file": "04-my_webpage.md",
+      "description": "\r\n>> winget install -e --id GitHub.cli\r\n",
+      "line": 25
+    }
+  ],
+  "nextTour": "4b - My Webpage"
+}
