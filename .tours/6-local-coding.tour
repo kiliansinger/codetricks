@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "6 - Local AI coding",
+  "steps": [
+    {
+      "file": "06-local_ai_coding.md",
+      "description": "[Install continue extension](command:workbench.extensions.installExtension?[\"Continue.continue\"])\r\n",
+      "line": 7
+    },
+    {
+      "file": "06-local_ai_coding.md",
+      "description": ">> ollama pull Qwen2.5-coder:7b \r\n\r\n>> ollama pull nomic-embed-text:latest\r\n\r\n>> ollama pull llama3.2:latest   ",
+      "line": 17
+    },
+    {
+      "file": "06-local_ai_coding.md",
+      "description": "linux:\r\n\r\n>> curl -fsSL https://ollama.com/install.sh | sh\r\n\r\nwindows:\r\n\r\n>> winget install --id=Ollama.Ollama  -e\r\n\r\nmac:\r\n\r\n>> brew install ollama\r\n",
+      "line": 9
+    }
+  ]
+}

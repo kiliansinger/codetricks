@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "5-AI coding",
+  "steps": [
+     {
+      "file": "05-ai_coding,nd",
+      "description": "[Install GitHub Copilot extension](command:workbench.extensions.installExtension?[\"GitHub.copilot\"])\r\n\r\n[Install GitHub Copilot Chat extension](command:workbench.extensions.installExtension?[\"GitHub.copilot-chat\"])\r\n\r\n\r\n",
+      "line": 15
+    }
+  ]
+}
