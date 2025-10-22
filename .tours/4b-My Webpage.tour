@@ -17,5 +17,6 @@
       "description": "[Install Live Server extension](command:workbench.extensions.installExtension?[\"ritwickdey.LiveServer\"])",
       "line": 99
     }
-  ]
+  ],
+  "nextTour": "5-AI coding"
 }
