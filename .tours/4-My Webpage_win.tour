@@ -8,6 +8,5 @@
       "description": "\r\n>> winget install -e --id GitHub.cli\r\n",
       "line": 25
     }
-  ],
-  "nextTour": "4b - My Webpage"
+  ]
 }

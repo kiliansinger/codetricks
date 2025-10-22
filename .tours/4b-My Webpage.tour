@@ -11,6 +11,11 @@
       "file": "04-my_webpage.md",
       "description": "this really creates the remote repository:\r\n\r\n>> gh repo create --source=. --public --description \"my webpage\"\r\n\r\nthis line adds the remote website url to the local repository.\r\n\r\ngit remote add origin https://github.com/ACCOUNTNAME/mywebpage.git\r\n\r\nand the next line pushes the local commit to the remote repository:\r\n\r\n>> git push --set-upstream origin main\r\n",
       "line": 60
+    },
+    {
+      "file": "04-my_webpage.md",
+      "description": "[Install Live Server extension](command:workbench.extensions.installExtension?[\"ritwickdey.LiveServer\"])",
+      "line": 99
     }
   ]
 }

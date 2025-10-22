@@ -59,3 +59,42 @@ git remote add origin https://github.com/ACCOUNTNAME/mywebpage.git
 git push --set-upstream origin main
 git remote add origin https://github.com/ACCOUNTNAME/mywebpage.git
 ```
+finally create a file named ``index.html``
+with the following content
+```html
+<!doctype html>
+<html>
+  <head>
+    <title>This is the title of the webpage!</title>
+  </head>
+  <body>
+  <H1>Recipies
+    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
+  </body>
+</html>
+```
+add it to the repository:
+```bash
+git add index.html
+```
+and commit
+```bash
+git commit -a -m "added webpage"
+```
+now push the content to the github server
+```bash
+git push
+```
+
+now we tell the server to serve a webpage
+```bash
+gh api -X POST repos/:owner/:repo/pages -f source[branch]=main -f source[path]=/
+```
+
+How about making a nice little cooking recipy web page.
+And try to add some code to it to make it calculate the amounts of ingredients
+as function of the portions you set.
+
+
+Now when looking at the result for developing the above procedure would be quite anoying.
+That's why there is a nice extension that allows you to life code...
