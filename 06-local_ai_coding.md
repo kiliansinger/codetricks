@@ -54,7 +54,7 @@ context:
   - provider: codebase
   ```
 Now you can use continue to tap complete your code but also to chat.
-In chat you can type for example type:
+In chat - which you open with CTRL+L -  you can type for example type:
   
 ```
 please explain me this codebase @Codebase
