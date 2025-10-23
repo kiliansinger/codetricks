@@ -21,7 +21,7 @@ Lets make an new account if you do not have it already:
 
 Try to use your university account because this will give you Copilot+ AI guided coding (see later).
 
-install the github command line interface (CLI) by following the tour...
+install the github command line interface (CLI) by following the tour or type ```winget install -e --id GitHub.cli```:
 
 Once you have an account. Lets create a local repository. For detailed description follow the tour link below...µµ
 ```bash

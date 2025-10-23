@@ -4,7 +4,7 @@ Revision control is very useful. Just imagine you write your thesis and suddenly
 
 And here we use it that you can update your codetricks course. But the great part of git is that you can work in teams. It was invented by Linus Thorwald who wrote Linux. We use it in science when we program large simulation programs in teams or sofisticated experimental control systems.
 
-Lets install it.
+Lets install it by downloading from https://git-scm.com/ or using the tour...
 
 now all you have to do to update is type ``git pull`` from the command line to get updates.
 For the lazy ones I have it in the hint...
