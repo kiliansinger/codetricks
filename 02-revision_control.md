@@ -6,7 +6,7 @@ And here we use it that you can update your codetricks course. But the great par
 
 Lets install it by downloading from https://git-scm.com/ or using the tour...
 
-`now all you have to do is download the repository with ``git clone https://github.com/kiliansinger/codetricks.git`` then ``cd codetricks`` and to update it type ``git pull`` from the command line to get updates.
+`now all you have to do is download the repository with ``git clone https://github.com/kiliansinger/codetricks.git`` (only needed if you have not downloaded the zipped git file and unzipped it) then ``cd codetricks`` and to update it type ``git pull`` from the command line to get updates.
 For the lazy ones I have it in the hint...
 
 And now you can see more chapters and also this text was updated.
