@@ -11,7 +11,7 @@ Apply here: [https://github.com/education](https://github.com/education)
 
 For all others and those that do not want to let the AI read all their code with potential private information, I will show how to run local AI to be nearly as proficient.
 
-In case you go for github copilot you need to install two extensions. Use the tour ...
+In case you go for github copilot you need to install two extensions: [Github Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) and [Github Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat) Use the tour ...
 
 Then try yourself to add a recipeee to your webpage. And add the functionality to adjust the amount of ingredients dependent on the portions.
 
