@@ -2,6 +2,12 @@
 
 (c) 2025 Kilian Singer
 
+These little light tutorials are ment to show important tricks with programming and tools to be efficient in physics.
+
+Instead of browsing these files through the web I recommend going through the first part and then browsing it through visual studio code. As a starter you can download the first two parts here: [codetricks](./codetricks.zip)
+
+Then open the first part and start your journey...
+
 [01 - Welcome](./01-welcome.md)
 
 [02 - Revision Control](./02-revision_control.md)
