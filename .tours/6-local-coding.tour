@@ -5,7 +5,17 @@
     {
       "file": "06-local_ai_coding.md",
       "description": "[Install continue extension](command:workbench.extensions.installExtension?[\"Continue.continue\"])\r\n",
-      "line": 7
+      "line": 7,
+      "selection": {
+        "start": {
+          "line": 1,
+          "character": 1
+        },
+        "end": {
+          "line": 2,
+          "character": 1
+        }
+      }
     },
     {
       "file": "06-local_ai_coding.md",
@@ -16,11 +26,6 @@
       "file": "06-local_ai_coding.md",
       "description": ">> ollama pull dengcao/Qwen3-Reranker-0.6B:Q8_0    \r\n\r\n>> ollama pull danielsheep/Qwen3-Coder-30B-A3B-Instruct-1M-Unsloth:UD-IQ3_XXS \r\n\r\n>> ollama pull hf.co/dat-lequoc/Fast-Apply-1.5B-v1.0_GGUF:latest    \r\n\r\n>> ollama pull nate/instinct:latest  \r\n\r\n>> ollama pull nomic-embed-text:latest    \r\n\r\n>> ollama pull Qwen2.5-coder:1.5b    ",
       "line": 19
-    },
-    {
-      "file": "07-advanced coding agent.md",
-      "description": "[Install continue extension](command:workbench.extensions.installExtension?[\"saoudrizwan.claude-dev\"])\r\n",
-      "line": 7
     }
   ]
 }

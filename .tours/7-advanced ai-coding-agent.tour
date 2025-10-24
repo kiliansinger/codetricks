@@ -1,5 +1,11 @@
 {
   "$schema": "https://aka.ms/codetour-schema",
   "title": "7 - Advanced AI coding agent",
-  "steps": []
+  "steps": [
+     {
+      "file": "07-advanced_coding_agent.md",
+      "description": "[Install cline extension](command:workbench.extensions.installExtension?[\"saoudrizwan.claude-dev\"])\r\n",
+      "line": 7
+    }
+  ]
 }

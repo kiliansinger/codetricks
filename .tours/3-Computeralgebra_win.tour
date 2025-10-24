@@ -1,10 +1,10 @@
 {
   "$schema": "https://aka.ms/codetour-schema",
   "title": "3 - Computeralgebra",
-  "when":"isWindows",
+  "when": "isWindows",
   "steps": [
     {
-      "file": "03-Computer Algebra with Maxima.md",
+      "file": "03-Computer_Algebra_with_Maxima.md",
       "description": ">> winget install -e --id MaximaTeam.Maxima\r\n",
       "line": 16
     }
