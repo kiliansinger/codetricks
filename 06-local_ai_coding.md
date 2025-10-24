@@ -75,76 +75,33 @@ Lets make a different thing how about a fibonacci [$f(0)=0, f(1)=1,f(n)=f(n-1)+f
 
 lets make life a bit hard for ai by starting with something completely corrupted:
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        
-        button {
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            background-color: #4CAF50;
-            color: white;
-            cursor: pointer;
-        }
-        
-        input[type="number"] {
-            width: 100%;
-            height: 40px;
-            margin-bottom: 10px;
-            padding: 0 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-    </style>
-</head>
-<body>
+<!doctype html>
+<html>
+  <head>
+    <title>My recipie page</title>
+    <scipt>
+      //fibonacci function returning n-th fibonacci
 
-    <h2>Calculator</h2>
-    <input type="number" id="num1" placeholder="Number 1">
-    <input type="number" id="num2" placeholder="Number 2">
-    <button onclick="calculate()">Calc</button>
-    <p id="result"></p>
-    <!--a secound field with result2-->
-    <p id="result2"></p>
-
-    <script>
-        function calculate() {
-            var num1 = document.getElementById("num1").value;
-            var num2 = document.getElementById("num2").value;
-
-            // now we want to multiply num1 with num2
-           var result = num1 * num2;//I have just typed TAB on the keyboard
-           
-            
-            document.getElementById("result").innerHTML = "Result: " + result;
-
-            //we want to also output the sum of num1 and num2
-            var result2=num1+num2;
-            document.getElementById("result2").innerHTML = "Sum: "+result2;
-            //again with TAB it was writing the code for me
-            //now lets ask
-            //calculate the nth fibonacci number
-            function fibonacci(n) {
-                if (n <= 1) return n;
-    else return fibonacci(n-1)+fibonacci(n-2)
-            }
-
-                    
-    
-    </script>
+  <H1>Recipies</H1>
+console.log('Hello');
+  <H2>Pancakes</H2>
+<p>Ingredients</p>
+<ul>
+  
+</ul>
+  <!-- add input field -->
+  <input type="number" id="portionInput" name="portionInput">
+  <script>
+    // Add script to recalculate amounts
+    const input = document.getElementById('portionInput');
+    input.addEventListener('input', function() {
+      // Recalculate amount based on input value
+    });
+  </script>
 </body>
 </html>
-
 ```
- and just put your cursor where the fibonacci function is and try to press tab to get the results.
+and just put your cursor where the fibonacci function is and try to press tab to get the results.
 
 Then use the life server extension to see the result. It does not work.
 

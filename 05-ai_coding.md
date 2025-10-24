@@ -2,12 +2,12 @@
 
 Warning: You need to still be able to program. There was
 an incidence where chatgpt was writing a crypto wallet that
-stole the money and transfered it to an hacker's account (https://www.heise.de/news/ChatGPT-Code-mit-betruegerischer-API-kostet-Programmierer-2500-US-Dollar-10169146.html).
+stole the money and transfered it to an hacker's account ([https://www.heise.de/news/ChatGPT-Code-mit-betruegerischer-API-kostet-Programmierer-2500-US-Dollar-10169146.html](https://www.heise.de/news/ChatGPT-Code-mit-betruegerischer-API-kostet-Programmierer-2500-US-Dollar-10169146.html)).
 
 But AI coding can really speed up as you will see with our recipie webpage.
 
 As a student of the university you are able to get a free educational account of github copilot.
-Apply here: https://github.com/education
+Apply here: [https://github.com/education](https://github.com/education)
 
 For all others and those that do not want to let the AI read all their code with potential private information, I will show how to run local AI to be nearly as proficient.
 

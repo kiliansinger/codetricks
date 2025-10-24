@@ -4,7 +4,7 @@
 
 high-accuracy retrieval augmented generation (RAG) on PDFs or text files, with a focus on the scientific literature
 
-https://github.com/Future-House/paper-qa?tab=readme-ov-file
+[https://github.com/Future-House/paper-qa?tab=readme-ov-file](https://github.com/Future-House/paper-qa?tab=readme-ov-file)
 
 most of the work we should have done already. We should have [ollama](https://ollama.com/download) installed.
 

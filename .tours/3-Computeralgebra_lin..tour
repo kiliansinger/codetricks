@@ -4,7 +4,7 @@
   "when": "isLinux",
   "steps": [
     {
-      "file": "03-Computer Algebra with Maxima.md",
+      "file": "03-Computer_Algebra_with_Maxima.md",
       "description": "Debian:\r\n>> apt-get install wxmaxima \r\n\r\nRedhat:\r\n>> sudo dnf install wxmaxima\r\n",
       "line": 16
     }

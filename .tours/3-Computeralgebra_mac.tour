@@ -4,7 +4,7 @@
   "when": "isMac",
   "steps": [
     {
-      "file": "03-Computer Algebra with Maxima.md",
+      "file": "03-Computer_Algebra_with_Maxima.md",
       "description": ">> brew install wxmaxima\r\n",
       "line": 16
     }

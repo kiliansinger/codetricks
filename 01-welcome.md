@@ -5,7 +5,7 @@ These little light tutorials are ment to show important tricks with programming 
 ## Things to do First
 
 For all tricks we see here we need an editor. Install vscode from:
-https://code.visualstudio.com/
+[https://code.visualstudio.com/](https://code.visualstudio.com/)
 
 It works on Linux, Windows and Mac.
 
@@ -25,4 +25,4 @@ Now you can just press CTRL+SHIFT+ALT+M (on Mac: OPTION corresponds to ALT and C
 
 ## Markdown cheat sheets
 
-https://github.com/lifeparticle/Markdown-Cheatsheet
+[https://github.com/lifeparticle/Markdown-Cheatsheet](https://github.com/lifeparticle/Markdown-Cheatsheet)

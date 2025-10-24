@@ -4,13 +4,13 @@ Revision control is very useful. Just imagine you write your thesis and suddenly
 
 And here we use it that you can update your codetricks course. But the great part of git is that you can work in teams. It was invented by Linus Thorwald who wrote Linux. We use it in science when we program large simulation programs in teams or sofisticated experimental control systems.
 
-Lets install it by downloading from https://git-scm.com/ or using the tour...
+Lets install it by downloading from [https://git-scm.com/](https://git-scm.com/) or using the tour...
 
-`now all you have to do is download the repository with ``git clone https://github.com/kiliansinger/codetricks.git`` (only needed if you have not downloaded the zipped git file and unzipped it) then ``cd codetricks`` and to update it type ``git pull`` from the command line to get updates.
+Now all you have to do is download the repository with ``git clone https://github.com/kiliansinger/codetricks.git`` (only needed if you have not downloaded the zipped git file and unzipped it) then ``cd codetricks`` and to update it type ``git pull`` from the command line to get updates.
 For the lazy ones I have it in the hint...
 
 And now you can see more chapters and also this text was updated.
-If you want to learn more about git you can start here: https://rogerdudler.github.io/git-guide/
+If you want to learn more about git you can start here: [https://rogerdudler.github.io/git-guide/](https://rogerdudler.github.io/git-guide/)
 
 Have also a look I updated the [01-welcome](./01-welcome.md) with hints where to learn more about Markdown.
 
