@@ -1,7 +1,7 @@
 {
   "$schema": "https://aka.ms/codetour-schema",
   "title": "2 - Revision Control",
-  "when":"isWindows",
+  "when": "isWindows",
   "steps": [
     {
       "file": "02-revision_control.md",
@@ -10,7 +10,7 @@
     },
     {
       "file": "02-revision_control.md",
-      "description": ">> git pull",
+      "description": ">> git clone https://github.com/kiliansinger/codetricks\r\n\r\n>> cd codetricks\r\n\r\n>> git pull",
       "line": 11
     }
   ]
