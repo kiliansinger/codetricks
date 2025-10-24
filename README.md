@@ -6,7 +6,7 @@
 
 [02 - Revision Control](./02-revision_control.md)
 
-[03 - Computer Algebra](./03-computer-algebra-with-maxima.md)
+[03 - Computer Algebra](./03-Computer_Algebra_with_Maxima.md)
 
 [04 - My webpage](./04-my_webpage.md)
 
