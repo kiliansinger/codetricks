@@ -1,6 +1,7 @@
 # Literature research with AI
 
 ## PaperQA
+
 high-accuracy retrieval augmented generation (RAG) on PDFs or text files, with a focus on the scientific literature
 
 https://github.com/Future-House/paper-qa?tab=readme-ov-file
@@ -28,8 +29,6 @@ and mac:
 brew install --cask miniforge
 ```
 
-
-
 ![image-20251018121336541](08-Literature_research_with_ai.assets/image-20251018121336541.png)
 
 then open miniforge prompt
@@ -41,8 +40,8 @@ type the following commands
 ```bash
 mkdir pq
 cd pq
-conda create -n pq python=3.11 -y
-conda activate pq
+conda create -n py311 python=3.11 -y
+conda activate py311
 pip install torch
 pip install git+https://github.com/huggingface/transformers
 pip install git+https://github.com/huggingface/accelerate
