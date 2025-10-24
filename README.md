@@ -18,6 +18,6 @@
 
 [08 - Literature Research AI](./08-Literature_research_with_ai.md)
 
-[09 - Jupterlab Programming](./09-jupyterlab_programming.md)
+[09 - Jupterlab Programming](./09-Jupyterlab-Programming.md)
 
 
