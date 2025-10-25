@@ -9,14 +9,13 @@ Next we need to install a locally deployed AI model runner: [Ollama (Version 0.9
 Follow the tour...
 
 open command line and install the needed languange models:
-
 ```bash
-ollama pull dengcao/Qwen3-Reranker-0.6B:Q8_0  
-ollama pull danielsheep/Qwen3-Coder-30B-A3B-Instruct-1M-Unsloth:UD-IQ3_XXS 
-ollama pull hf.co/dat-lequoc/Fast-Apply-1.5B-v1.0_GGUF:latest  
-ollama pull nate/instinct:latest  
-ollama pull nomic-embed-text:latest  
-ollama pull Qwen2.5-coder:1.5b   
+  ollama pull dengcao/Qwen3-Reranker-0.6B:Q8_0  
+  ollama pull danielsheep/Qwen3-Coder-30B-A3B-Instruct-1M-Unsloth:UD-IQ3_XXS 
+  ollama pull hf.co/dat-lequoc/Fast-Apply-1.5B-v1.0_GGUF:latest  
+  ollama pull nate/instinct:latest  
+  ollama pull nomic-embed-text:latest  
+  ollama pull Qwen2.5-coder:1.5b   
 ```
 
 in %USERPROFILE%\.continue\config.yaml
