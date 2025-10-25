@@ -26,4 +26,6 @@ Then open the first part and start your journey...
 
 [09 - Jupterlab Programming](./09-Jupyterlab-Programming.md)
 
+[Impressum/Datenschutz](./impressum.html)
+
 
