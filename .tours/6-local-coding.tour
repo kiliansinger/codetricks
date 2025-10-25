@@ -19,7 +19,7 @@
     },
     {
       "file": "06-local_ai_coding.md",
-      "description": "linux:\r\n\r\n>> curl -fsSL https://ollama.com/install.sh | sh\r\n\r\nwindows:\r\n\r\n>> winget install --id=Ollama.Ollama  -e\r\n\r\nmac:\r\n\r\n>> brew install ollama\r\n",
+      "description": "linux:\r\n\r\n>> curl -fsSL https://ollama.com/install.sh | sh\r\n\r\nwindows:\r\n\r\nIn order to install specific version you need to first uninstall ollama if it is installed:\r\n\r\n>> winget uninstall --id=Ollama.Ollama  \r\n\r\nThen install ollama v.0.9.3:\r\n\r\n>> winget install --id=Ollama.Ollama  -e --version 0.9.3 --no-upgrade --exact\r\n\r\nmac:\r\n\r\n>> brew install ollama\r\n",
       "line": 9
     },
     {

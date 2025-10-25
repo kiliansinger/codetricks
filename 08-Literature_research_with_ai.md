@@ -29,6 +29,8 @@ and mac:
 brew install --cask miniforge
 ```
 
+![image-20251024202353848](08-Literature_research_with_ai.assets/image-20251024202353848.png)
+
 ![image-20251018121336541](08-Literature_research_with_ai.assets/image-20251018121336541.png)
 
 then open miniforge prompt

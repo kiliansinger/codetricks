@@ -6,6 +6,11 @@
       "file": "07-advanced_coding_agent.md",
       "description": "[Install cline extension](command:workbench.extensions.installExtension?[\"saoudrizwan.claude-dev\"])\r\n",
       "line": 7
+    },
+    {
+      "file": "09-Jupyterlab-Programming.md",
+      "description": "[Install jupyter extension](command:workbench.extensions.installExtension?[\"ms-toolsai.jupyter\"])",
+      "line": 8
     }
   ]
 }

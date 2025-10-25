@@ -1,28 +1,40 @@
-# Scientific plotting with python: jupyterlab
+# Scientific plotting with python: jupyter notebooks
 
 ## Installation
 
-windows:
-```bash
-winget install jupyterlab
-```
-osx:
-```bash
-brew install --cask jupyterlab-app
-```
-linux (debian and derivates)
-Download the latest *.deb installer from:
-https://github.com/jupyterlab/jupyterlab-desktop/releases
+https://www.youtube.com/watch?v=suAkMeWJ1yE
 
-and type:
-```bash
-sudo dpkg -i 
+Install the [jupyter extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
+
+
+
+![image-20251024212219368](09-Jupyterlab-Programming.assets/image-20251024212219368.png)
+
+```json
+{
+    "language": "python",
+    "display_name": "ROOT python",
+    "argv": [
+       "C:\\Users\\k\\miniforge3\\envs\\py311\\python.exe",
+        "-m",
+        "ipykernel_launcher",
+        "-f",
+        "{connection_file}"
+        ],
+        "env": {
+            "PYTHONPATH": "c:\\root_v6.36.04\\bin"
+        }
+}
 ```
 
-linux(red hat and derivates)
-Download the latest *.rpm installer from:
-https://github.com/jupyterlab/jupyterlab-desktop/releases
-and type:
+ ```bash
+ jupyter kernelspec install c:\root_v6.36.04\etc\notebook\kernels\root
+ ```
+
+if you also want to run jupyter notebooks in the browser
+
 ```bash
-rpm -Uvh 
+pip install jupyter-notebook
+jupyter notebook
 ```
+

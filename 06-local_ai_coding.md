@@ -5,7 +5,7 @@ If you work in a company they might demand this from you.
 
 Then first install the [continue.dev](https://marketplace.visualstudio.com/items?itemName=Continue.continue) extension. Follow the tour...
 
-Next we need to install a locally deployed AI model runner: Ollama
+Next we need to install a locally deployed AI model runner: [Ollama (Version 0.9.3)](https://github.com/ollama/ollama/releases/download/v0.9.3/OllamaSetup.exe) is currently the last working version that works with GPU acceleration)
 Follow the tour...
 
 open command line and install the needed languange models:
