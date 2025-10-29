@@ -2,14 +2,32 @@
 
 ## Installation
 
-https://www.youtube.com/watch?v=suAkMeWJ1yE
-
 Install the [jupyter extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
 
+We want to use the jupyter notebooks not only with python but also with C++ and C and thus need to stick to python 3.11 for now. Thus open your previously installed miniforge prompt and type
+
+```bash
+conda create -n "py311" python=3.11conda activate py311
+pip install ipykernel
+```
+The following lines are only needed if you want to rename the names of the python environment for the jupyter notebook
+```
+python -m ipykernel install --user --name py311
+python -m ipykernel install --user --name py311 --display-name "Python (py311)"
+```
+
+if you also want to run jupyter notebooks in the browser then also do:
+
+```bash
+pip install jupyter-notebook
+jupyter notebook
+```
+
+In order to plot with ROOT from cern that uses c++ you can additionally install [ROOT from cern](https://root.cern/install/all_releases/)
 
 
-![image-20251024212219368](09-Jupyterlab-Programming.assets/image-20251024212219368.png)
-
+edit C:\root_v6.36.04\etc\notebook\kernels\root\kernel.json
+change the version in above path and also below according to your recent installation of ROOT.
 ```json
 {
     "language": "python",
@@ -27,14 +45,7 @@ Install the [jupyter extension](https://marketplace.visualstudio.com/items?itemN
 }
 ```
 
- ```bash
- jupyter kernelspec install c:\root_v6.36.04\etc\notebook\kernels\root
- ```
-
-if you also want to run jupyter notebooks in the browser
-
 ```bash
-pip install jupyter-notebook
-jupyter notebook
+pip install metakernel
+jupyter kernelspec install c:\root_v6.36.04\etc\notebook\kernels\root
 ```
-

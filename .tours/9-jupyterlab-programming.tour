@@ -3,6 +3,10 @@
   "title": "9 - JupyterLab programming",
   "when": "true",
   "steps": [
-    
+    {
+      "file": "09-Jupyterlab-Programming.md",
+      "description": "[Install jupyter extension](command:workbench.extensions.installExtension?[\"ms-toolsai.jupyter\"])",
+      "line": 6
+    }
   ]
 }
