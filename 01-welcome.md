@@ -4,7 +4,7 @@ These little light tutorials are ment to show important tricks with programming 
 
 ## Things to do First
 
-First download the zip file and unpack it: [codetrick.zip](codetricks.zip)
+If you have not already done so, download the zip file and unpack it: [codetrick.zip](codetricks.zip)
 
 For all tricks we see here, we need an editor. Install vscode from:
 [https://code.visualstudio.com/](https://code.visualstudio.com/)
