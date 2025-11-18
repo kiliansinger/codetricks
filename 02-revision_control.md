@@ -1,12 +1,12 @@
 # Revision control
 
-Revision control is very useful. Just imagine you write your thesis and suddenly you delete a part without realizing it. you safe it and then you write more. At some point you realize the problem. With revision control you can follow back each of your steps.
+Revision control is very useful. Just imagine you write your thesis and suddenly you delete a part without realizing it. You safe it, and then you write more. At some point you realize the problem. With revision control you can track back each of your steps.
 
-And here we use it that you can update your codetricks course. But the great part of git is that you can work in teams. It was invented by Linus Thorwald who wrote Linux. We use it in science when we program large simulation programs in teams or sofisticated experimental control systems.
+And here we use it for updating your codetricks course. But the great part of git is that you can work in teams. It was invented by Linus Thorwald who wrote Linux. We use it in science when we program large simulation programs in teams or sofisticated experimental control systems.
 
-Lets install it by downloading from [https://git-scm.com/](https://git-scm.com/) or using the tour...
+Lets install it, by downloading from [https://git-scm.com/](https://git-scm.com/) or using the tour (only works in the source code view of vs-code)...
 
-Now all you have to do is download the repository with ``git clone https://github.com/kiliansinger/codetricks.git`` (only needed if you have not downloaded the zipped git file and unzipped it) then ``cd codetricks`` and to update it type ``git pull`` from the command line to get updates.
+Now all you have to do, is download the repository with ``git clone https://github.com/kiliansinger/codetricks.git`` (only needed if you have not downloaded the zipped git file and unzipped it) then ``cd codetricks`` and to update it type ``git pull`` from the command line to get updates.
 For the lazy ones I have it in the hint...
 
 And now you can see more chapters and also this text was updated.
@@ -22,7 +22,4 @@ If you made changes that you would like to all undo then do ``git reset --HARD o
 
 So you see ``git`` is a very usefull tool to keep track of changes and to undo changes.
 
-In [04-My Webpage](./04-my_webpage) you will make an account on github and then make a minimal webpage. 
-
-
-
+In [04-My Webpage](./04-my_webpage) you will make an account on github and then make a minimal webpage.
