@@ -16,6 +16,8 @@ Then open the first part and start your journey...
 
 [04 - My webpage](./04-my_webpage.md)
 
+[04b - My webpage on raspberry pi](./04b-webpage_on_raspberrypi.md)
+
 [05 - AI Coding](./05-ai_coding.md)
 
 [06 - Local AI Coding](./06-local_ai_coding.md)

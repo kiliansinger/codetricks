@@ -26,7 +26,14 @@ The first thing we do is, we use the codetour extension to install a good markdo
 
 Just click on this link here to install [Markdown extension](https://marketplace.visualstudio.com/items?itemName=zaaack.markdown-editor).
 
-Now you can just press CTRL+SHIFT+ALT+M (on Mac: OPTION corresponds to ALT and COMMAND is the CTRL key) to see this document in a much nicer way.
+Now you can just press CTRL+SHIFT+ALT+M (on Mac: OPTION corresponds to ALT and COMMAND is the CTRL key) to see this document in a WYSIWYG (what you see is what you get) view.
+
+You can also paste images directly into that view. But before you should change the setting of that extension as following:
+
+
+![](01-welcome.assets/20251118_082634_image.png)
+
+Such that all images are stored relative to your markdown source file in a folder called ``filename.assets``.
 
 ## Markdown cheat sheets
 
