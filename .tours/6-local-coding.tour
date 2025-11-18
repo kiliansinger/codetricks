@@ -20,12 +20,12 @@
     {
       "file": "06-local_ai_coding.md",
       "description": "linux:\r\n\r\n>> curl -fsSL https://ollama.com/install.sh | sh\r\n\r\nwindows:\r\n\r\nIn order to install specific version you need to first uninstall ollama if it is installed:\r\n\r\nget list of installed models:\r\n\r\n>> ollama list\r\n\r\n>> winget uninstall --id=Ollama.Ollama  \r\n\r\nThen install ollama v.0.9.3:\r\n\r\n>> winget install --id=Ollama.Ollama  -e --version 0.9.3 --no-upgrade --exact\r\n\r\nmac:\r\n\r\n>> brew install ollama\r\n",
-      "line": 9
+      "line": 10
     },
     {
       "file": "06-local_ai_coding.md",
       "description": ">> ollama pull dengcao/Qwen3-Reranker-0.6B:Q8_0    \r\n\r\n>> ollama pull danielsheep/Qwen3-Coder-30B-A3B-Instruct-1M-Unsloth:UD-IQ3_XXS \r\n\r\n>> ollama pull hf.co/dat-lequoc/Fast-Apply-1.5B-v1.0_GGUF:latest    \r\n\r\n>> ollama pull nate/instinct:latest  \r\n\r\n>> ollama pull nomic-embed-text:latest    \r\n\r\n>> ollama pull Qwen2.5-coder:1.5b    ",
-      "line": 19
+      "line": 20
     }
   ]
 }

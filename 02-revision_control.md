@@ -6,7 +6,7 @@ And here we use it for updating your codetricks course. But the great part of gi
 
 Lets install it, by downloading from [https://git-scm.com/](https://git-scm.com/) or using the tour (only works in the source code view of vs-code)...
 
-Now all you have to do, is download the repository with ``git clone https://github.com/kiliansinger/codetricks.git`` (only needed if you have not downloaded the zipped git file and unzipped it) then ``cd codetricks`` and to update it type ``git pull`` from the command line to get updates.
+Now all you have to do, is download the repository with ``git clone https://github.com/kiliansinger/codetricks.git`` (only needed if you have not downloaded the zipped [codetrick.zip](codetricks.zip) file and unzipped it) then ``cd codetricks`` and to update it type ``git pull`` from the command line to get updates.
 For the lazy ones I have it in the hint...
 
 And now you can see more chapters and also this text was updated.

@@ -19,7 +19,7 @@ There search for ```codetour``` and install it. In order to take advantage of th
 
 ## Then
 
-Now we can use The [Codetour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour) feature to automatically install and give tours that are inserted into the tutorials such that you need to type less. They also detect on which operating system you are. So now you just need to click on the tour link to automatically install it...
+Now we can use The [Codetour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour) feature to automatically install and give tours that are inserted into the tutorials such that you need to type less. They also detect on which operating system you are. So now you just need to click on  link to automatically install it...
 
 This file is actually Markdown. You might know it from the web.
 The first thing we do is, we use the codetour extension to install a good markdown extension that allows us to use life editing of math formulas ($\gamma=\frac{1}{\sqrt{1-v^2/c^2}}$) and linking files and pictures. This is very important if you work in physics labs in research. Unfortunately links are currently broken in that viewer. So you need to CTRL/(OPTION on mac) click the links in the source file.

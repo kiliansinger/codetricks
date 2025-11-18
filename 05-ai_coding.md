@@ -11,13 +11,13 @@ But AI coding can really speed up as you will see with our recipie webpage.
 As a student of the university you are able to get a free educational account of github copilot.
 Apply here: [https://github.com/education](https://github.com/education)
 
-For all others and those that do not want to let the AI read all their code with potential private information, I will show how to run local AI to be nearly as proficient.
+For all others and those that do not want to let the AI read all their code with potential private information, I will show how to run local AI to be nearly as proficient. Follow the code tour (only works in the source code view of vs-code) to install the needed extensions...
 
-In case you go for github copilot you need to install two extensions: [Github Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) and [Github Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat) Use the tour ...
+In case you go for github copilot you need to install two extensions: [Github Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) and [Github Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat) Use the code tour (only works in the source code view of vs-code)...
 
-Then try yourself to add a recipeee to your webpage. And add the functionality to adjust the amount of ingredients dependent on the portions.
+Then try yourself to add a recipee to your webpage. And add the functionality to adjust the amount of ingredients dependent on the portions.
 
-the result could look similar to this code (Ask copilot chat to explain things if you do not understand). I modified the code such that the measures only occur in one place. A good programming paradigm is to avoid multiple places where same values are given.
+The result could look similar to the following code (Ask copilot chat to explain things if you do not understand). I modified the code such that the measures only occur in one place. A good programming paradigm is to avoid multiple places where same values are given.
 
 Result:
 

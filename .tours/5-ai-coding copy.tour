@@ -5,7 +5,7 @@
     {
       "file": "05-ai_coding.md",
       "description": "[Install GitHub Copilot extension](command:workbench.extensions.installExtension?[\"GitHub.copilot\"])\r\n\r\n[Install GitHub Copilot Chat extension](command:workbench.extensions.installExtension?[\"GitHub.copilot-chat\"])\r\n\r\n\r\n",
-      "line": 15
+      "line": 17
     }
   ]
 }

@@ -3,10 +3,10 @@
 If you are using copilot and you want to try the local coding agent, then you need to first deactivate copilot in the extension manager. Local coding agent has the advantage that your source code is not transferred into the cloud.
 If you work in a company they might demand this from you.
 
-Then first install the [continue.dev](https://marketplace.visualstudio.com/items?itemName=Continue.continue) extension. Follow the tour...
+Then first install the [continue.dev](https://marketplace.visualstudio.com/items?itemName=Continue.continue) extension. Follow the code tour (only works in the source code view of vs-code)...
 
-Next we need to install a locally deployed AI model runner: [Ollama (Version 0.12.2)](https://github.com/ollama/ollama/releases/download/v0.12.2/OllamaSetup.exe) is currently the last working version that works with GPU acceleration at least on my pc (see [issue](https://github.com/ollama/ollama/issues/11676))
-Follow the tour...
+Next we need to install a locally deployed AI model runner: [Ollama](https://github.com/ollama/ollama/releases).
+Follow the the code tour (only works in the source code view of vs-code)...
 
 open command line and install the needed languange models:
 ```bash
@@ -18,7 +18,7 @@ open command line and install the needed languange models:
   ollama pull Qwen2.5-coder:1.5b   
 ```
 
-in %USERPROFILE%\.continue\config.yaml
+in %USERPROFILE%\.continue\config.yaml (for windows). And probably ``homefolder/.continue/config.yaml`` for linux and mac.
 
 ```yaml
 name: Local Config
