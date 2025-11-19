@@ -48,7 +48,27 @@ Then open the first part and start your journey...
 
 [P3.2 Binary operators](./jupyternotebooks/P3.2-Binary operators.html)
 
-[P3.3 Assignment operators and miscelanousoperators.html](./jupyternotebooks/P3.3%203.4-asignment%20operators%20and%20miscelanousoperators.html)
+[P3.3 Assignment operators and miscelanousoperators.html](./jupyternotebooks/P3.3-assignment operators and miscelanousoperators.html)
+
+[P4.1 Loops and Jumps - Keyboard.html](P4.1-Loops and Jumps - Keyboard.html)
+
+[P4.2-Conditions and Loops.html](P4.2-Conditions and Loops.html)
+
+[P5 Functions](P5 Functions.html)
+
+[P6 Classes](P6 Classes.html)
+
+[P7.1 Containers Array](P7.1 Containers Array.html)
+
+[P7.2 Containers Map](P7.2 Containers Map.html)
+
+[P8 Memory Management](P8 Memory Management.html)
+
+[P9 Usefull libraries](P9 Usefull libraries.html)
+
+[RootCPP.html](RootCPP.html)
+
+[RootPython.html](RootPython.html)
 
 ## Using our new skills
 
