@@ -235,6 +235,7 @@ In order to plot with ROOT from cern that uses c++ you can additionally install 
 If you installed root directly in windows (not recommended) then edit C:\root_v6.36.04\etc\notebook\kernels\root\kernel.json.
 
 and write in this file:
+
 ```json
 {
     "language": "python",
@@ -251,18 +252,23 @@ and write in this file:
         }
 }
 ```
+
 for all other platforms including wsl on windows no changes are required.
 
 for windows do:
+
 ```bash
 pip install metakernel
 jupyter kernelspec install c:\root_v6.36.04\etc\notebook\kernels\root
 ```
+
 otherwise do:
+
 ```bash
 pip install metakernel
 jupyter kernelspec install ~/miniforge3/envs/ROOT3/etc/notebook/kernels/root/
 ```
+
 ### for fortran
 
 ```bash
@@ -279,3 +285,13 @@ liblzma-dev libxxhash-dev liblz4-dev libzstd-dev
 ```
 
 Then open the next jupyter notebook [./jupyternotebook/P1.0-Setup.ipynb](./jupyternotebook/P1.0-Setup.ipynb) (under windows you need to start vs-code by ``code .`` from the current folder and select the ROOT python environment.
+
+At the date of writing 19.11.2025 the vscode-notebook-renderers had a bug with javascript. I wrote a Pull Request that should be merged soon. For the impatient ones you can install the extension update from here
+[vscode-notebook-renderers fix](./jupyternotebooks/ms-notebook-renderers.vsix)
+
+Go to the extension pane and select the three dots to install it from a local source:
+
+
+![](09-Jupyterlab-Programming.assets/20251119_152837_image.png)
+
+
