@@ -1,0 +1,6 @@
+{
+    "fortran.fortls.disabled": true,
+    "files.associations": {
+        "iostream": "cpp"
+    }
+}

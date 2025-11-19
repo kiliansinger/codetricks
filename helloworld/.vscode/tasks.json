@@ -1,0 +1,25 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "gfbuild",
+            "command": "gfortran",
+            "args":[ 
+                "${file}",
+                "-g3",
+                "-O0",
+                "-fbacktrace",
+                "-fcheck=all",
+                "-ffpe-trap=zero,overflow,underflow",
+                "-Wall",
+                "-Wextra",
+                "-Warray-temporaries",
+                "-Wconversion",
+                "-ffree-line-length-0",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ]
+        }
+    ],
+    "version": "2.0.0"
+}
