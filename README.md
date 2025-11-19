@@ -28,6 +28,8 @@ Then open the first part and start your journey...
 
 [09 - Jupterlab Programming](./09-Jupyterlab-Programming.md)
 
+[10 - Finetuning Large Language Models](./10-finetuning_llms.md)
+
 [Impressum/Datenschutz](./impressum.html)
 
 
