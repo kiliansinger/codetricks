@@ -35,7 +35,7 @@ git commit -m "first commit"
 ```
 
 Now we have a local git repository.
-Next will create a git repository on https://github.com and synchronize it with our local.
+Next will create a git repository on [https://github.com](https://github.com) and synchronize it with our local.
 First log in:
 
 ```bash
@@ -51,7 +51,7 @@ then press 5 times return, you should see:
 ? How would you like to authenticate GitHub CLI? Login with a web browser
 
 ! First copy your one-time code: 9113-2090
-Press Enter to open https://github.com/login/device in your browser...
+Press Enter to open [https://github.com/login/device](https://github.com/login/device) in your browser...
 ✓ Authentication complete.
 - gh config set -h github.com git_protocol https
 ✓ Configured git protocol

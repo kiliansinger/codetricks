@@ -8,6 +8,8 @@ Instead of browsing these files through the web I recommend going through the fi
 
 Then open the first part and start your journey...
 
+## Tool setup
+
 [01 - Welcome](./01-welcome.md)
 
 [02 - Revision Control](./02-revision_control.md)
@@ -27,6 +29,28 @@ Then open the first part and start your journey...
 [08 - Literature Research AI](./08-Literature_research_with_ai.md)
 
 [09 - Jupterlab Programming](./09-Jupyterlab-Programming.md)
+
+# Learning 4 Programming languages at the same time: C++ ,C , Python and Javascript
+
+[P1.0 Setup](./jupyternotebooks/P1.0-Setup.html)
+
+[P2.1 Datentypen-Zahlen](./jupyternotebooks/P2.1-Datentypen-Zahlen.html)
+
+[P2.2 Character and Boolean](./jupyternotebooks/P2.2-Character and Boolean.html)
+
+[P2.3 Constants, References and strings](./jupyternotebooks/P2.3-Constants, References and strings.html)
+
+[P2.4 Scope](./jupyternotebooks/P2.4-Scope.html)
+
+[P3.1.1 Operators](./jupyternotebooks/P3.1.1-Operators.html)
+
+[P3.1.2 Typecasting](./jupyternotebooks/P3.1.2-typecasting.html)
+
+[P3.2 Binary operators](./jupyternotebooks/P3.2-Binary operators.html)
+
+[P3.3 Assignment operators and miscelanousoperators.html](./jupyternotebooks/P3.3%203.4-asignment%20operators%20and%20miscelanousoperators.html)
+
+## Using our new skills
 
 [10 - Finetuning Large Language Models](./10-finetuning_llms.md)
 

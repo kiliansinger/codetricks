@@ -13,6 +13,6 @@ But if you own a raspberry pi, then you just need to run
 sudo apt install wolfram-engine
 ```
 
-We will install maxima https://maxima.sourceforge.io/download.html. Again you can just click the codetour link (if you open the file in vs-code source code view)...
+We will install maxima [https://maxima.sourceforge.io/download.html](https://maxima.sourceforge.io/download.html). Again you can just click the codetour link (if you open the file in vs-code source code view)...
 
 Then open the folder [04maxima](./03-maxima) for some example files with plotting, integrating, derivatives and performing Taylor series expansions.

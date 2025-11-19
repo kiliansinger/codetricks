@@ -5,13 +5,13 @@ Now we will show how you can have a low cost home server with a raspberry pi whi
 I would recommend a raspberry 5 with 4GB of RAM for about 65 EUR and use at least a 32 GB sd-card.
 We use the minimal server image to get a small and fast system which you can then remotely access (with gui) without any overhead.
 
-https://downloads.raspberrypi.com/raspios_lite_arm64/images/
+[https://downloads.raspberrypi.com/raspios_lite_arm64/images/](https://downloads.raspberrypi.com/raspios_lite_arm64/images/)
 
 use this software to write the image on an sd card:
 
-https://win32diskimager.org/
+[https://win32diskimager.org/](https://win32diskimager.org/)
 
-https://www.win-rar.com/download.html?&L=1
+[https://www.win-rar.com/download.html?&L=1](https://www.win-rar.com/download.html?&L=1)
 
 under linux or osx you can use the ``dd`` tool. But you need to figure out the device name of your sdcard.
 
@@ -48,7 +48,7 @@ Now we need to configure the router to expose ssh, https and http, remote deskto
 
 If you have a domain registered you can set dyndns to access your raspberry pi from the world wide web.
 
-But if not and you have a fritz box then you can use (my fritz)[https://www.tutonaut.de/anleitung-myfritz-konto-als-dyndns-ersatz-nutzen/].
+But if not and you have a fritz box then you can use [my fritz](https://www.tutonaut.de/anleitung-myfritz-konto-als-dyndns-ersatz-nutzen/).
 
 I will use strato as domain registry so you can access your pi with e.g raspberrypi.mustermann.de from every where.
 
@@ -92,7 +92,7 @@ setup the settings in fritz box:
 
 ![image-20251118112126777](raspberrypi.assets/image-20251118112126777.png)
 
-the settings vary from provider for strato see here: https://www.strato.de/faq/hosting/so-einfach-richten-sie-dyndns-fuer-ihre-domains-ein/
+the settings vary from provider for strato see here: [https://www.strato.de/faq/hosting/so-einfach-richten-sie-dyndns-fuer-ihre-domains-ein/](https://www.strato.de/faq/hosting/so-einfach-richten-sie-dyndns-fuer-ihre-domains-ein/)
 
 to get an apache webserver running do:
 

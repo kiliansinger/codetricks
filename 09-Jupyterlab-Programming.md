@@ -196,9 +196,9 @@ do this for c++ and python also
 
 links:
 
-https://submit.mit.edu/submit-users-guide/tutorials/tutorial_5.html
-https://code.visualstudio.com/docs/cpp/config-wsl
-https://iraspa.org/blog/visual-studio-code-c-cpp-fortran-with-multiple-source-files/
+[https://submit.mit.edu/submit-users-guide/tutorials/tutorial_5.html](https://submit.mit.edu/submit-users-guide/tutorials/tutorial_5.html)
+[https://code.visualstudio.com/docs/cpp/config-wsl](https://code.visualstudio.com/docs/cpp/config-wsl)
+[https://iraspa.org/blog/visual-studio-code-c-cpp-fortran-with-multiple-source-files/](https://iraspa.org/blog/visual-studio-code-c-cpp-fortran-with-multiple-source-files/)
 
 ## Setup specific python environment for multilanguage jupyter notebooks
 
