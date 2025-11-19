@@ -232,10 +232,9 @@ jupyter notebook
 
 In order to plot with ROOT from cern that uses c++ you can additionally install [ROOT from cern](https://root.cern/install/all_releases/) (if you work with WSL you need to install the proper Ubuntu Version which you can figure out in WSL with ``cat /etc/issue``)
 
-edit C:\root_v6.36.04\etc\notebook\kernels\root\kernel.json
-change the version in above path and also below according to your recent installation of ROOT.
+If you installed root directly in windows (not recommended) then edit C:\root_v6.36.04\etc\notebook\kernels\root\kernel.json.
 
-NOTE: the paths are for a windows install and need to be adjusted for WSL, osx, and linux.
+and write in this file:
 ```json
 {
     "language": "python",
@@ -252,12 +251,18 @@ NOTE: the paths are for a windows install and need to be adjusted for WSL, osx, 
         }
 }
 ```
+for all other platforms including wsl on windows no changes are required.
 
+for windows do:
 ```bash
 pip install metakernel
 jupyter kernelspec install c:\root_v6.36.04\etc\notebook\kernels\root
 ```
-
+otherwise do:
+```bash
+pip install metakernel
+jupyter kernelspec install ~/miniforge3/envs/ROOT3/etc/notebook/kernels/root/
+```
 ### for fortran
 
 ```bash
