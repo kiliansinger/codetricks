@@ -1,0 +1,19 @@
+{
+ "argv": [
+  "C:\\Users\\admin\\AppData\\Roaming\\jupyterlab-desktop\\jlab_server\\python.exe",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "Python 3 b(ipykernel)",
+ "language": "python",
+ "metadata": {
+  "debugger": true
+ },
+    "env": {
+        "CD": "c:\\root_v6.30.04\\bin",
+        "PATH": "c:\\root_v6.30.04\\bin",
+        "PYTHONPATH": "c:\\root_v6.30.04\\bin"
+    }
+}

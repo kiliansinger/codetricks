@@ -208,15 +208,19 @@ Thus open your miniforge prompt and type
 ### for c/c++
 
 ```bash
-conda create -n "py311" python=3.11conda activate py311
+# Python<=3.11 is needed such that the fortran-magic works. also under wsl
+# BUT THIS WAS ALREADY done above
+conda config --set channel_priority strict
+conda create -c conda-forge --name ROOT root python=3.11
+conda activate ROOT
 pip install ipykernel
 ```
 
 The following lines are only needed if you want to rename the names of the python environment for the jupyter notebook
 
 ```
-python -m ipykernel install --user --name py311
-python -m ipykernel install --user --name py311 --display-name "Python (py311)"
+python -m ipykernel install --user --name ROOT
+python -m ipykernel install --user --name ROOT --display-name "Python (py311)"
 ```
 
 if you also want to run jupyter notebooks in the browser then also do:
@@ -231,6 +235,7 @@ In order to plot with ROOT from cern that uses c++ you can additionally install 
 edit C:\root_v6.36.04\etc\notebook\kernels\root\kernel.json
 change the version in above path and also below according to your recent installation of ROOT.
 
+NOTE: the paths are for a windows install and need to be adjusted for WSL, osx, and linux.
 ```json
 {
     "language": "python",
@@ -254,3 +259,18 @@ jupyter kernelspec install c:\root_v6.36.04\etc\notebook\kernels\root
 ```
 
 ### for fortran
+
+```bash
+sudo apt install binutils cmake dpkg-dev g++ gcc libssl-dev git libx11-dev \libxext-dev libxft-dev libxpm-dev python3 libtbb-dev libvdt-dev libgif-dev
+
+sudo apt install gfortran libpcre3-dev \
+libglu1-mesa-dev libglew-dev libftgl-dev \
+libfftw3-dev libcfitsio-dev libgraphviz-dev \
+libavahi-compat-libdnssd-dev libldap2-dev \
+ python3-dev python3-numpy libxml2-dev libkrb5-dev \
+libgsl-dev qtwebengine5-dev nlohmann-json3-dev libmysqlclient-dev \
+libgl2ps-dev \
+liblzma-dev libxxhash-dev liblz4-dev libzstd-dev
+```
+
+Then open the next jupyter notebook [./jupyternotebook/P1.0-Setup.ipynb](./jupyternotebook/P1.0-Setup.ipynb) (under windows you need to start vs-code by ``code .`` from the current folder and select the ROOT python environment.

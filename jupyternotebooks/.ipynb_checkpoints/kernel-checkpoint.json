@@ -1,0 +1,16 @@
+{
+"language": "c++",
+"display_name": "ROOT C++",
+"argv": [
+    "C:\\Users\\admin\\AppData\\Roaming\\jupyterlab-desktop\\jlab_server\\python.exe",
+    "-m",
+    "JupyROOT.kernel.rootkernel",
+    "-f",
+    "{connection_file}"
+],
+    "env": {
+        "CD": "c:\\root_v6.30.04\\bin",
+        "PATH": "c:\\root_v6.30.04\\bin",
+        "PYTHONPATH": "c:\\root_v6.30.04\\bin"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "language": "python",
+    "display_name": "ROOT python",
+    "argv": [
+        "C:\\Users\\k\\AppData\\Roaming\\jupyterlab-desktop\\jlab_server\\envs\\py311\\python.exe",
+        "-m",
+        "ipykernel_launcher",
+        "-f",
+        "{connection_file}"
+        ],
+        "env": {
+            "PYTHONPATH": "c:\\root_v6.34.00\\bin"
+        }
+}
