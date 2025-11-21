@@ -86,7 +86,7 @@ finally click the checkbox and click on accept
 
 Your router gives you in the most cases changing ip addresses. So you could just write them down each day and then hope that it does not change when you try to access your raspberry pi when you are away.
 
-Or you setup your dyndns with your domain privider (this costs a few cents per month..)
+Or you setup your dyndns with your domain privider (this costs a few cents per month or even for free: https://www.dynu.com/DynamicDNS/IPUpdateClient/Fritzbox)
 
 ![image-20251118113200212](raspberrypi.assets/image-20251118113200212.png)
 
