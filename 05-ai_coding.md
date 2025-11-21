@@ -4,9 +4,9 @@ Warning: You need to still be able to program. There was
 an incidence where chatgpt was writing a crypto wallet that
 stole the money and transfered it to an hacker's account ([https://www.heise.de/news/ChatGPT-Code-mit-betruegerischer-API-kostet-Programmierer-2500-US-Dollar-10169146.html](https://www.heise.de/news/ChatGPT-Code-mit-betruegerischer-API-kostet-Programmierer-2500-US-Dollar-10169146.html)).
 
-Also be aware that approximately in one out of three cases AI models currently just invent wrong facts: https://www.heise.de/hintergrund/KI-und-die-Halluzinationen-Warum-sind-so-viele-Antworten-falsch-10962482.html
+Also be aware that approximately in one out of three cases AI models currently just invent wrong facts:[https://www.heise.de/hintergrund/KI-und-die-Halluzinationen-Warum-sind-so-viele-Antworten-falsch-10962482.html](https://www.heise.de/hintergrund/KI-und-die-Halluzinationen-Warum-sind-so-viele-Antworten-falsch-10962482.html)
 
-Also depending from where the model comes it can output vulnerabilities if your query contains references to taiwan and others. (https://the-decoder.com/deepseek-outputs-weaker-code-on-falun-gong-tibet-and-taiwan-queries/)
+Also depending from where the model comes it can output vulnerabilities if your query contains references to taiwan and others. ([https://the-decoder.com/deepseek-outputs-weaker-code-on-falun-gong-tibet-and-taiwan-queries/](https://the-decoder.com/deepseek-outputs-weaker-code-on-falun-gong-tibet-and-taiwan-queries/))
 
 But AI coding can really speed up as you will see with our recipie webpage.
 
