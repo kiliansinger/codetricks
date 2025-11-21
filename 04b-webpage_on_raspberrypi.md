@@ -30,7 +30,7 @@ username:#weFEW$W$EfE4f3f4$$fw4erfwk4fj4lkjwelkfjwlkfjlwk\
 
 where you would replace username by your account's username you want to use.
 
-The text after colon is an encrypted password which can be generated with linux, osx or wsl (for windows): ``  echo 'MYPassword' | openssl passwd -6``
+The text after colon is an encrypted password which can be generated with linux, osx or [wsl](./09-Jupyterlab-Programming.md) (for windows): ``  echo 'MYPassword' | openssl passwd -6``
 
 Use a secure password and do not forget the space before ``echo`` to avoid storage of passwords in the command line history.
 
@@ -84,7 +84,9 @@ finally click the checkbox and click on accept
 
 ![image-20251118114251331](raspberrypi.assets/image-20251118114251331.png)
 
-then setup your dyndns with your domain privider:
+Your router gives you in the most cases changing ip addresses. So you could just write them down each day and then hope that it does not change when you try to access your raspberry pi when you are away.
+
+Or you setup your dyndns with your domain privider (this costs a few cents per month..)
 
 ![image-20251118113200212](raspberrypi.assets/image-20251118113200212.png)
 
