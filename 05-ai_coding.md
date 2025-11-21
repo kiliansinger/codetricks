@@ -6,6 +6,8 @@ stole the money and transfered it to an hacker's account ([https://www.heise.de/
 
 Also be aware that approximately in one out of three cases AI models currently just invent wrong facts: https://www.heise.de/hintergrund/KI-und-die-Halluzinationen-Warum-sind-so-viele-Antworten-falsch-10962482.html
 
+Also depending from where the model comes it can output vulnerabilities if your query contains references to taiwan and others. (https://the-decoder.com/deepseek-outputs-weaker-code-on-falun-gong-tibet-and-taiwan-queries/)
+
 But AI coding can really speed up as you will see with our recipie webpage.
 
 As a student of the university you are able to get a free educational account of github copilot.
