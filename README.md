@@ -26,7 +26,7 @@ Then open the first part and start your journey...
 
 [07 - Advanved AI Coding agent](./07-advanced_coding_agent.md)
 
-[08 - Literature Research AI](./08-Literature_research_with_ai.md)
+[08 - Literature Research with AI](./08-Literature_research_with_ai.md)
 
 [09 - Jupterlab Programming](./09-Jupyterlab-Programming.md)
 
@@ -76,6 +76,12 @@ Then open the first part and start your journey...
 
 [11 - Cutting edge Optical-Character-Recognition](./11-cutting_edge_ocr.md)
 
-[Impressum/Datenschutz](./impressum.html)
 
+## Useful links
+
+[http://neuralnetworksanddeeplearning.com/](http://neuralnetworksanddeeplearning.com/)
+
+____
+
+[Impressum/Datenschutz](./impressum.html)
 
