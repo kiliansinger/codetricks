@@ -9,11 +9,13 @@ We use the minimal server image to get a small and fast system which you can the
 
 use this software to write the image on an sd card:
 
-[https://win32diskimager.org/](https://win32diskimager.org/)
+[Raspberry Pi imager](https://www.raspberrypi.com/software/)
 
-[https://www.win-rar.com/download.html?&L=1](https://www.win-rar.com/download.html?&L=1)
+when selecting the image you need to scroll all the way down here:
 
-under linux or osx you can use the ``dd`` tool. But you need to figure out the device name of your sdcard.
+![image-20251125142913840](04b-webpage_on_raspberrypi.assets/image-20251125142913840.png)
+
+If you insist on using the command line, then under linux, osx or wsl you can use the ``dd`` tool. But you need to figure out the device name of your sdcard.
 
 ```bash
 unxz filename.xz
