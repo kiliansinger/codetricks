@@ -2,7 +2,7 @@
 
 (c) 2025 Kilian Singer
 
-These little light tutorials are ment to show important tricks with programming and tools to be efficient in STEM (science, technology, engineering and mathamatics).
+These little light tutorials are ment to show important tricks with programming and tools to be efficient in STEM (science, technology, engineering and mathamatics). This includes how to use cutting edge ai tools for programming, Retrieval-Augmented Generation, LLM finetuning, OCR for even math, and more. Learn how to self-host a server from home and use most advanced commercial computer algebra systems for free.
 
 Instead of browsing these files through the web I recommend going through the first part and then browsing it through visual studio code. As a starter you can download the first two parts here: [codetricks](./codetricks.zip)
 
