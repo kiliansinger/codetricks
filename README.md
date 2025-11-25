@@ -74,6 +74,8 @@ Then open the first part and start your journey...
 
 [10 - Finetuning Large Language Models](./10-finetuning_llms.md)
 
+[11 - Cutting edge Optical-Character-Recognition](./11-cutting_edge_ocr.md)
+
 [Impressum/Datenschutz](./impressum.html)
 
 
