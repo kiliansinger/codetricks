@@ -21,7 +21,7 @@ Lets make an new account if you do not have it already:
 
 Try to use your university account because this will give you Copilot+ AI guided coding (see later).
 
-Install the github command line interface (CLI) by typing into the terminal (View/Terminal menu to activate it) ```winget install -e --id GitHub.cli``` alternatively follow the code tour (wich only works in the source code view of vs-code):
+Install the github command line interface (CLI) by typing into the terminal (View/Terminal menu to activate it) the commands as described [here](https://github.com/cli/cli#installation). Alternatively follow the code tour (wich only works in the source code view of vs-code):
 
 Once you have an account. Lets create a local repository. For detailed description follow the code tour (only works in the source code view of vs-code)...
 

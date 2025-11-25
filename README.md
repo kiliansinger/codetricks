@@ -12,7 +12,7 @@ Then open the first part and start your journey...
 
 [01 - Welcome](./01-welcome.md)
 
-[02 - Revision Control](./02-revision_control.md)
+[02 - Revision Control with GIT](./02-revision_control.md)
 
 [03 - Computer Algebra](./03-Computer_Algebra_with_Maxima.md)
 

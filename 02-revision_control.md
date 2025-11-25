@@ -1,4 +1,4 @@
-# Revision control
+# Revision control with GIT
 
 Revision control is very useful. Just imagine you write your thesis and suddenly you delete a part without realizing it. You safe it, and then you write more. At some point you realize the problem. With revision control you can track back each of your steps.
 
