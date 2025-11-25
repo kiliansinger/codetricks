@@ -2,6 +2,8 @@
 install python 3.12 as described in jupyternotebook setup description
 and select it as your environment
 
+[jupyter notebook](./finetuningllm/finetuning.ipynb)
+
 Details see: https://dev.to/fahim_muntasir_073a441e2f/fine-tuning-small-language-models-with-unsloth-a-detailed-beginners-guide-446o
 
 https://www.server-world.info/en/note?os=Debian_12&p=llama&f=3
