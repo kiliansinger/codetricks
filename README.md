@@ -2,7 +2,7 @@
 
 (c) 2025 Kilian Singer
 
-These little light tutorials are ment to show important tricks with programming and tools to be efficient in physics.
+These little light tutorials are ment to show important tricks with programming and tools to be efficient in STEM (science, technology, engineering and mathamatics).
 
 Instead of browsing these files through the web I recommend going through the first part and then browsing it through visual studio code. As a starter you can download the first two parts here: [codetricks](./codetricks.zip)
 
