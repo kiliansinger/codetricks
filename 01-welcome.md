@@ -11,7 +11,7 @@ For all tricks we see here, we need an editor. Install vscode from:
 
 It works on Linux, Windows and Mac.
 
-If you are lazy with the terminal you could use the Codetour extension. You can install it by opening the extension menue that resembles 4 boxes with one box rotated. Otherwise you should get acquainted with the terminal. Till 2014 there was a nice web page called learn linux the hard way. Fortunately it can be still found on the [web archive](https://web.archive.org/web/20141229230059/https://nixsrv.com/llthw). This is linux specific. But it will also be usefull when working in osx or in windows subsystem for linux on windows platform (which we will use in later parts when setting up programming environments.)
+If you are lazy with the terminal you could use the Codetour extension. You can install it by opening the extension menue that resembles 4 boxes with one box rotated. Otherwise you should get acquainted with the terminal. Till 2014 there was a nice web page called learn linux the hard way. Fortunately it can be still found on the [web archive](https://web.archive.org/web/20141229230059/https://nixsrv.com/llthw). This is linux specific. But it will also be usefull when working in osx or in windows subsystem for linux on windows platform (which we will use in later parts when setting up programming environments.g)
 
 ![](01-welcome.assets/20251118_054934_image.png)
 
