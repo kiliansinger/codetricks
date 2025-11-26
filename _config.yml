@@ -1,5 +1,5 @@
 # Site settings
-title: Codetricks
+title: kiliansinger/codetricks
 repository: kiliansinger/codetricks
 description: >-
   Programming tricks for STEM wizards.
@@ -8,7 +8,12 @@ markdown: GFM
 plugins:
 - jekyll-gfm-admonitions
 - jekyll-optional-front-matter
+- jekyll-relative-links
 
+relative_links:
+  enabled: true
+  collections: true
+  
 exclude: 
   - "**/*.ts" # Exclude source code files!
   - "**/*.js"
