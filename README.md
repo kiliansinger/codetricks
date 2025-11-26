@@ -78,7 +78,7 @@ In these chapters we will use our new skills to finetune large language models t
 
 [11 - Cutting edge Optical-Character-Recognition](./11-cutting_edge_ocr.md)
 
-[12 - World's best speech recognition for free](.12-worlds_best_speech_recognition.md)
+[12 - World's best speech recognition for free](./12-worlds_best_speech_recognition.md)
 
 ## Useful links
 
