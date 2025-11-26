@@ -9,6 +9,7 @@ plugins:
 - jekyll-gfm-admonitions
 - jekyll-optional-front-matter
 
+url: https://kiliansinger.github.io
 baseurl: /kiliansinger #the subpath of your site, e.g. /blog
 
 exclude: 
