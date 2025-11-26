@@ -3,3 +3,5 @@ plugins:
 relative_links:
   enabled: true
   collections: true
+
+# for [!WARNING] to work https://github.com/Helveg/jekyll-gfm-admonitions
