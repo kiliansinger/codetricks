@@ -8,12 +8,9 @@ markdown: GFM
 plugins:
 - jekyll-gfm-admonitions
 - jekyll-optional-front-matter
-- jekyll-relative-links
 
-relative_links:
-  enabled: true
-  collections: true
-  
+baseurl: /kiliansinger #the subpath of your site, e.g. /blog
+
 exclude: 
   - "**/*.ts" # Exclude source code files!
   - "**/*.js"
