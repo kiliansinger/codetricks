@@ -72,7 +72,7 @@ Then open the first part and start your journey...
 
 ## Using our new skills
 
-In these chapters we will use our new skills to finetune large language models to specific tasks. I will also show you how to finetune Optical-Character-Recognition such that it can read and convert your handwritten lecture notes including math formulas into markdown, even if you have a terrible handwriting. Also I found the first speech recognition software that can transcribe my lecture with all the mixture of german, physics, english. I will show you how to get aroundt the memory demand that the original code had by segmenting your task.
+In these chapters we will use our new skills to finetune large language models to specific tasks. I will also show you how to finetune Optical-Character-Recognition such that it can read and convert your handwritten lecture notes including math formulas into markdown, even if you have a terrible handwriting. Also I found the first speech recognition software that can transcribe my lecture with all the mixture of german, physics, english. I will show you how to get aroundt the memory demand that the original code had by segmenting your task. These are currently all highly sought programming tasks in companies. So have a look and add it to your skill portfolio.
 
 [10 - Finetuning Large Language Models](./10-finetuning_llms.md)
 

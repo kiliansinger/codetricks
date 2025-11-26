@@ -15,8 +15,10 @@ pip install cuda-python==12.9
 python3 app.py --share
 ```
 
-but we want to modify the program to do the segmentation:
-app.py should look like:
+but we want to modify the program to do the segmentation. Try it yourself by splitting the audio and putting things into a loop. 
+
+You can cheat and look at how I did it:
+``app.py:``
 ```python
 from nemo.collections.asr.models import ASRModel
 import torch
