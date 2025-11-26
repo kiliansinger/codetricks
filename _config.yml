@@ -1,8 +1,8 @@
 # Site settings
-title: Your Project Title
-repository: your-username/your-repository
+title: Codetricks
+repository: kiliansinger/codetricks
 description: >-
-  A description of your project
+  Programming tricks for STEM wizards.
 
 markdown: GFM 
 plugins:
