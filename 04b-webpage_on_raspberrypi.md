@@ -55,7 +55,7 @@ But if not and you have a fritz box then you can use [my fritz](https://www.tuto
 I will use strato as domain registry so you can access your pi with e.g raspberrypi.mustermann.de from every where.
 
 Lets first open ssh (port 22), http (port 80), https (port 443), remote desktop (port 3389) ports. 
-> [!WARNING]  
+> [!CAUTION]  
 > You need to use strong passwords. 
 > We have programmed a [a password checker](https://its-vm532.its.uni-kassel.de/passmarkovpro/) that runs locally in your browser especially when you are disconnected from the internet. Never enter passwords for testing in unknown pages.
 > This is why we made the webpage to run from your browser cache.

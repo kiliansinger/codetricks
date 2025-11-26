@@ -266,7 +266,7 @@ otherwise do:
 
 ```bash
 pip install metakernel
-#note needed: jupyter kernelspec install ~/miniforge3/envs/ROOT/etc/notebook/kernels/root/
+#not needed: jupyter kernelspec install ~/miniforge3/envs/ROOT/etc/notebook/kernels/root/
 ```
 
 ### for fortran
