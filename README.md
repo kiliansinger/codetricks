@@ -4,7 +4,8 @@
 
 These little light tutorials are ment to show important tricks with programming and tools to be efficient in STEM (science, technology, engineering and mathamatics). This includes how to use cutting edge ai tools for programming, Retrieval-Augmented Generation, LLM finetuning, OCR for even math, and more. Learn how to self-host a server from home and use most advanced commercial computer algebra systems for free.
 
-Instead of browsing these files through the web I recommend going through the first part and then browsing it through visual studio code. As a starter you can download the first two parts here: [codetricks](./codetricks.zip)
+>[!TIP]
+>Instead of browsing these files through the web I recommend going through the first >part and then browsing it through visual studio code. As a starter you can download >the first two parts here: [codetricks](./codetricks.zip)
 
 Then open the first part and start your journey...
 
@@ -82,8 +83,10 @@ In these chapters we will use our new skills to finetune large language models t
 
 ## Useful links
 
+If you want to dive into the basics of neural networks have a look here (Niesen also coauthored a book about Quantum Information Theory...)
 [http://neuralnetworksanddeeplearning.com/](http://neuralnetworksanddeeplearning.com/)
 
+Choose a small programming project that challanges you a bit. This is a learning paradigm called learning the hard way. Which basically means that you learn best by trying a problem which is not too easy. Many years ago I needed to learn about compiler design, that's when I realized that there is no better way to learning all the nits and bits of a programming language and also value its design descissions and beauty by [writing a compiler](https://github.com/kiliansinger/logic) yourself.
 
 ____
 
