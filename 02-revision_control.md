@@ -20,7 +20,6 @@ If you later want to retrieve your changes then type ``git stash apply`` this wi
 
 If you made changes that you would like to all undo then do ``git reset --HARD origin/main``. 
 > [!WARNING]  
-> Critical content demanding immediate user attention due to potential risks.
 > This removes all open changes and all changes that are comitted locally but not pushed.
 
 So you see ``git`` is a very usefull tool to keep track of changes and to undo changes.
