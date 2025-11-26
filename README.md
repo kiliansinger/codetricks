@@ -86,7 +86,8 @@ In these chapters we will use our new skills to finetune large language models t
 If you want to dive into the basics of neural networks have a look here (Niesen also coauthored a book about Quantum Information Theory...)
 [http://neuralnetworksanddeeplearning.com/](http://neuralnetworksanddeeplearning.com/)
 
-Choose a small programming project that challanges you a bit. This is a learning paradigm called learning the hard way. Which basically means that you learn best by trying a problem which is not too easy. Many years ago I needed to learn about compiler design, that's when I realized that there is no better way to learning all the nits and bits of a programming language and also value its design descissions and beauty by [writing a compiler](https://github.com/kiliansinger/logic) yourself.
+> [!TIP]
+> Choose a small programming project > that challanges you a bit. This is > a learning paradigm called learning the hard way. Which basically means that you learn best by trying a problem which is not too easy. Many years ago I needed to learn about compiler design, that's when I realized that there is no better way to learning all the nits and bits of a programming language and also value its design descissions and beauty by [writing a compiler](https://github.com/kiliansinger/logic) yourself.
 
 ____
 
