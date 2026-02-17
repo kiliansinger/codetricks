@@ -28,7 +28,7 @@ Then to install FriCAS do:
 
 ```bash
 sudo apt update
-sudo apt install emacs install texlive auctex dvipng
+sudo apt install emacs texlive auctex dvipng
 sudo su
 cd /
 #download from: https://github.com/fricas/fricas/releases
