@@ -39,5 +39,7 @@ tar xjf fricas-1.3.12.amd64.tar.bz2
 efricas
 ```
 
+Then you can also get nicely rendered math formulas:
 
+![image-20260217154531787](03-Computer_Algebra_with_Maxima.assets/image-20260217154531787.png)
 
