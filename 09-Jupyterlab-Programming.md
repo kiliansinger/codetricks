@@ -294,4 +294,13 @@ Go to the extension pane and select the three dots to install it from a local so
 
 ![](09-Jupyterlab-Programming.assets/20251119_152837_image.png)
 
+### for R in jupyter
+
+Note that the libraries of R in jupyter directly in windows are note loading lapack properly. So better use WSL under windows. 
+```bash
+conda activate ROOT
+conda install -c conda-forge r-base=4.5.3
+conda install -c conda-forge r-essentials
+```
+
 
