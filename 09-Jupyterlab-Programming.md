@@ -211,7 +211,7 @@ Thus open your miniforge prompt and type
 # Python<=3.11 is needed such that the fortran-magic works. also under wsl
 # BUT THIS WAS ALREADY done above
 conda config --set channel_priority strict
-conda create -c conda-forge --name ROOT root python=3.11.13
+conda create -c conda-forge --name ROOT root python=3.14
 conda activate ROOT
 pip install ipykernel
 ```
