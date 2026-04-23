@@ -302,6 +302,7 @@ Note that the libraries of R in jupyter directly in windows are note loading lap
 # BUT THIS WAS ALREADY done above
 sudo apt update
 sudo apt install curl
+sudo apt-get install r-base
 curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
 bash Miniforge3-$(uname)-$(uname -m).sh
 conda config --set channel_priority strict
