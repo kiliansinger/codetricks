@@ -298,6 +298,16 @@ Go to the extension pane and select the three dots to install it from a local so
 
 Note that the libraries of R in jupyter directly in windows are note loading lapack properly. So better use WSL under windows. 
 ```bash
+# Python<=3.11 is needed such that the fortran-magic works. also under wsl
+# BUT THIS WAS ALREADY done above
+sudo apt update
+sudo apt install curl
+curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
+bash Miniforge3-$(uname)-$(uname -m).sh
+conda config --set channel_priority strict
+conda create -c conda-forge --name ROOT root python=3.14
+conda activate ROOT
+pip install ipykernel
 conda activate ROOT
 conda install -c conda-forge r-base=4.5.3
 conda install -c conda-forge r-essentials
