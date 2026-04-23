@@ -44,9 +44,35 @@ jobs:
       - name: Convert notebooks to HTML
         run: |
           set -euo pipefail
+          converted=0
+          skipped=0
+
           while IFS= read -r -d '' nb; do
-            python -m nbconvert --to html "$nb" --output-dir "$(dirname "$nb")"
+            # Skip malformed notebook files (invalid JSON).
+            if ! python - <<'PY' "$nb"
+import json
+import sys
+
+path = sys.argv[1]
+with open(path, 'r', encoding='utf-8') as f:
+    json.load(f)
+PY
+            then
+              echo "Skipping invalid notebook JSON: $nb"
+              skipped=$((skipped + 1))
+              continue
+            fi
+
+            # Continue even if conversion of a single notebook fails.
+            if python -m nbconvert --to html "$nb" --output-dir "$(dirname "$nb")"; then
+              converted=$((converted + 1))
+            else
+              echo "Skipping notebook due to conversion error: $nb"
+              skipped=$((skipped + 1))
+            fi
           done < <(find . -name "*.ipynb" -not -path "*/.ipynb_checkpoints/*" -print0)
+
+          echo "Notebook conversion summary: converted=$converted skipped=$skipped"
       - name: Setup Ruby
         # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
         uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
