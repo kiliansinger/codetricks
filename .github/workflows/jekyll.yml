@@ -50,13 +50,13 @@ jobs:
           while IFS= read -r -d '' nb; do
             # Skip malformed notebook files (invalid JSON).
             if ! python - <<'PY' "$nb"
-import json
-import sys
+              import json
+              import sys
 
-path = sys.argv[1]
-with open(path, 'r', encoding='utf-8') as f:
-    json.load(f)
-PY
+              path = sys.argv[1]
+              with open(path, 'r', encoding='utf-8') as f:
+                  json.load(f)
+              PY
             then
               echo "Skipping invalid notebook JSON: $nb"
               skipped=$((skipped + 1))
