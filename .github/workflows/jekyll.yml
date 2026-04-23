@@ -48,22 +48,6 @@ jobs:
           skipped=0
 
           while IFS= read -r -d '' nb; do
-            # Skip malformed notebook files (invalid JSON).
-            if ! python - <<'PY' "$nb"
-              import json
-              import sys
-
-              path = sys.argv[1]
-              with open(path, 'r', encoding='utf-8') as f:
-                  json.load(f)
-              PY
-            then
-              echo "Skipping invalid notebook JSON: $nb"
-              skipped=$((skipped + 1))
-              continue
-            fi
-
-            # Continue even if conversion of a single notebook fails.
             if python -m nbconvert --to html "$nb" --output-dir "$(dirname "$nb")"; then
               converted=$((converted + 1))
             else
