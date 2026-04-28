@@ -20,7 +20,13 @@ install homebrew
 
 ### windows
 
-Press ``CTRL+R`` and type cmd
+Press ``CTRL+R`` and type: OptionalFeatures.exe
+
+and select Windows-Hypervisor-Platform and WIndows-Subsystem for Linux:
+
+![image-20260428101013006](09-Jupyterlab-Programming.assets/image-20260428101013006.png)
+
+Press ``CTRL+R`` and type: cmd
 
 ```bash
 wsl --install
@@ -52,7 +58,7 @@ you need to activate virtualization in bios when you get:
 
 ![image-20241130194748825](09-Jupyterlab-Programming.assets/image-20241130194748825-1763451353115-107.png)
 
-or if you run it in a hyper-v virtual machine you must run an administrative powershell on the host machine and execute ``Set-VMProcessor -VMName <VMName> -ExposeVirtualizationExtensions $false``
+Only for experts if you want to run wsl inside a hyper-v virtual machine machine under windows: Only in this case you must run an administrative powershell on the host machine and execute ``Set-VMProcessor -VMName <VMName> -ExposeVirtualizationExtensions $false``
 
 #### Install vscode ws-extension (only for windows)
 
@@ -313,5 +319,4 @@ conda activate ROOT
 conda install -c conda-forge r-base=4.5.3
 conda install -c conda-forge r-essentials
 ```
-
 
