@@ -24,14 +24,16 @@ Now we can use The [Codetour](https://marketplace.visualstudio.com/items?itemNam
 This file is actually Markdown. You might know it from the web.
 The first thing we do is, we use the codetour extension to install a good markdown extension that allows us to use life editing of math formulas ($\gamma=\frac{1}{\sqrt{1-v^2/c^2}}$) and linking files and pictures. This is very important if you work in physics labs in research. Unfortunately links are currently broken in that viewer. So you need to CTRL/(OPTION on mac) click the links in the source file.
 
-Just click on this link here to install [Markdown extension](https://marketplace.visualstudio.com/items?itemName=CodeSmith.markdown-inline-editor-vscode).
+Just click on this link here to install [Markdown preview enhanced extension](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced).
 
-Now you can just press CTRL+SHIFT+ALT+M (on Mac: OPTION corresponds to ALT and COMMAND is the CTRL key) to see this document in a WYSIWYG (what you see is what you get) view.
+Now you can just press CTRL+K then V (on Mac: OPTION corresponds to ALT and COMMAND is the CTRL key) to see this document in a WYSIWYG (what you see is what you get) view.
 
-You can also paste images directly into that view. But before you should change the setting of that extension as following:
+You can also paste images directly into the editor view. But before you should install the paste image extension:
+[Markdown extension](https://marketplace.visualstudio.com/items?itemName=telesoho.vscode-markdown-paste-image).
+change the setting of that extension as following:
+![](01-welcome.assets/20260428115615.png)
 
-
-![](01-welcome.assets/20251118_082634_image.png)
+Now you can directly paste images with CTRL+ALT+V.
 
 Such that all images are stored relative to your markdown source file in a folder called ``filename.assets``.
 
