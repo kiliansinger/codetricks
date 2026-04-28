@@ -26,7 +26,7 @@ The first thing we do is, we use the codetour extension to install a good markdo
 
 Just click on this link here to install [Markdown preview enhanced extension](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced).
 
-Now you can just press CTRL+K then V (on Mac: OPTION corresponds to ALT and COMMAND is the CTRL key) to see this document in a WYSIWYG (what you see is what you get) view.
+Now you can just press CTRL+SHIFT+V to view the preview and CTRL+K then V to see this document in side by side view. Note: On Mac OPTION corresponds to ALT and COMMAND is the CTRL key.
 
 You can also paste images directly into the editor view. But before you should install the paste image extension:
 [Markdown extension](https://marketplace.visualstudio.com/items?itemName=telesoho.vscode-markdown-paste-image).
