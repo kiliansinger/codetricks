@@ -24,7 +24,7 @@ Now we can use The [Codetour](https://marketplace.visualstudio.com/items?itemNam
 This file is actually Markdown. You might know it from the web.
 The first thing we do is, we use the codetour extension to install a good markdown extension that allows us to use life editing of math formulas ($\gamma=\frac{1}{\sqrt{1-v^2/c^2}}$) and linking files and pictures. This is very important if you work in physics labs in research. Unfortunately links are currently broken in that viewer. So you need to CTRL/(OPTION on mac) click the links in the source file.
 
-Just click on this link here to install [Markdown extension](https://marketplace.visualstudio.com/items?itemName=zaaack.markdown-editor).
+Just click on this link here to install [Markdown extension](https://marketplace.visualstudio.com/items?itemName=CodeSmith.markdown-inline-editor-vscode).
 
 Now you can just press CTRL+SHIFT+ALT+M (on Mac: OPTION corresponds to ALT and COMMAND is the CTRL key) to see this document in a WYSIWYG (what you see is what you get) view.
 

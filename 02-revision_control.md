@@ -24,4 +24,4 @@ If you made changes that you would like to all undo then do ``git reset --HARD o
 
 So you see ``git`` is a very usefull tool to keep track of changes and to undo changes.
 
-In [04-My Webpage](./04-my_webpage) you will make an account on github and then make a minimal webpage.
+In [04-My Webpage](./04-my_webpage.md) you will make an account on github and then make a minimal webpage.
