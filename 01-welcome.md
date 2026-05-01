@@ -19,17 +19,22 @@ There search for ```codetour``` and install it. In order to take advantage of th
 
 ## Then
 
-Now we can use The [Codetour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour) feature to automatically install and give tours that are inserted into the tutorials such that you need to type less. They also detect on which operating system you are. So now you just need to click on  link to automatically install it...
+Now we can use The [Codetour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour) feature to automatically install and give tours that are inserted into the tutorials such that you need to type less. They also detect on which operating system you are.
 
 This file is actually Markdown. You might know it from the web.
-The first thing we do is, we use the codetour extension to install a good markdown extension that allows us to use life editing of math formulas ($\gamma=\frac{1}{\sqrt{1-v^2/c^2}}$) and linking files and pictures. This is very important if you work in physics labs in research. Unfortunately links are currently broken in that viewer. So you need to CTRL/(OPTION on mac) click the links in the source file.
+The first thing we do is, we use the codetour extension to install a good markdown extension that allows us to use life editing of math formulas ($\gamma=\frac{1}{\sqrt{1-v^2/c^2}}$) and linking files and pictures. This is very important if you work in physics labs in research. You can also click on links by using CTRL/(OPTION on mac) and click the links in the source file.
 
-Just click on this link here to install [Markdown preview enhanced extension](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced).
+You can get a better preview of the current file by installing this extension either by clicking here [Markdown preview enhanced extension](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) or by using the codetour and open the following line:
+
+Codetour install of ```Markdown preview enhanced extension```.
 
 Now you can just press CTRL+SHIFT+V to view the preview and CTRL+K then V to see this document in side by side view. Note: On Mac OPTION corresponds to ALT and COMMAND is the CTRL key.
 
 You can also paste images directly into the editor view. But before you should install the paste image extension:
-[Markdown extension](https://marketplace.visualstudio.com/items?itemName=telesoho.vscode-markdown-paste-image).
+[Markdown paste extension](https://marketplace.visualstudio.com/items?itemName=telesoho.vscode-markdown-paste-image).
+
+Codetour install of ```Markdown paste extension```.
+
 change the setting of that extension as following:
 ![](01-welcome.assets/20260428115615.png)
 

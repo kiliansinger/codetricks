@@ -1,7 +1,7 @@
 {
   "$schema": "https://aka.ms/codetour-schema",
   "title": "4 - My Webpage",
-  "when": "isWindows",
+  "when": "isWindows && !isLinux",
   "steps": [
     {
       "file": "04-my_webpage.md",

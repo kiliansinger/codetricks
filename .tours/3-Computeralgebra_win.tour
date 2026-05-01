@@ -1,7 +1,7 @@
 {
   "$schema": "https://aka.ms/codetour-schema",
   "title": "3 - Computeralgebra",
-  "when": "isWindows",
+  "when": "isWindows && !isLinux",
   "steps": [
     {
       "file": "03-Computer_Algebra_with_Maxima.md",

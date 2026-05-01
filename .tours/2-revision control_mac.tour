@@ -10,7 +10,7 @@
     },
     {
       "file": "02-revision_control.md",
-      "description": ">> git pull",
+      "description": ">> git stash\n\n>> git pull",
       "line": 11
     }
   ]

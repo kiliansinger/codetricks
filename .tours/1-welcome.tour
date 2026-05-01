@@ -4,9 +4,13 @@
   "steps": [
     {
       "file": "01-welcome.md",
-      "description": "We will install a Markdown extension such that the current file looks much better.\r\n\r\n[Install Markdown extension](command:workbench.extensions.installExtension?[\"zaaack.markdown-editor\"])",
-      "line": 22
+      "description": "We will install a Markdown extension such that the current file looks much better.\r\n\r\n[Markdown preview enhanced extension](command:workbench.extensions.installExtension?[\"shd101wyy.markdown-preview-enhanced\"])",
+      "line": 29
+    },
+     {
+      "file": "01-welcome.md",
+      "description": "We will install a Markdown paste extension such that you can paste images.\r\n\r\n[Markdown preview enhanced extension](command:workbench.extensions.installExtension?[\"telesoho.vscode-markdown-paste-image\"])",
+      "line": 36
     }
-  ],
-  "isPrimary": true
+  ]
 }
