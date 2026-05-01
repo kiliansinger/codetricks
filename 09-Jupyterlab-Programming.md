@@ -68,6 +68,12 @@ run vs-code and install wsl-extension if you run it in windows:
 
 ![image-20241130201032892](09-Jupyterlab-Programming.assets/image-20241130201032892-1763451353115-109.png)
 
+Note for WSL: If you want to access e.g. your ```codetricks``` folder inside your ```Download``` folder and your username is ```einstein```   ) (```c:\Users\einstein\Download\codetricks```) from wsl you need to type:
+```bash
+cd /mnt/c/Users/einstein/Download/codetricks
+code .
+```
+Note that the backslash (```\```) is changed int a slash (```/```) 
 ## open terminal and change directory into the helloworld folder
 
 go into the directory:
